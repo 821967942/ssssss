@@ -8,4 +8,3 @@ git log --pretty=oneline	//简化的查看输出信息
 git reset --hard HEAD^		//回滚到上一个版本
 git cat 文件名			//执行回滚
 git reset --hard 版本号ID	//回滚到指定版本,ID不全会自动查找
-暂存区
