@@ -8,3 +8,8 @@ git log --pretty=oneline	//简化的查看输出信息
 git reset --hard HEAD^		//回滚到上一个版本
 git cat 文件名			//执行回滚
 git reset --hard 版本号ID	//回滚到指定版本,ID不全会自动查找
+
+
+git checkout -- 文件名		//撤销最近的一次提交修改
+git rm 文件名			//删除指定文件
+git checkout -- 指定文件名	//回复指定文件
