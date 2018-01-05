@@ -1,0 +1,15 @@
+git init 	//创建版本库
+git add 文件名	//把文件添加到仓库
+git commit -m "说明"	//把文件提交到仓库
+git status 		//查看那些文件被修改过
+git diff		//查看指定的文件修改了那些内容
+git log 		//查看提交记录
+git log --pretty=oneline	//简化的查看输出信息
+git reset --hard HEAD^		//回滚到上一个版本
+git cat 文件名			//执行回滚
+git reset --hard 版本号ID	//回滚到指定版本,ID不全会自动查找
+
+
+git checkout -- 文件名		//撤销最近的一次提交修改
+git rm 文件名			//删除指定文件
+git checkout -- 指定文件名	//回复指定文件
