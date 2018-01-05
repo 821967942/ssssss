@@ -3,3 +3,5 @@ git add 文件名	//把文件添加到仓库
 git commit -m "说明"	//把文件提交到仓库
 git status 		//查看那些文件被修改过
 git diff		//查看指定的文件修改了那些内容
+git log 		//查看提交记录
+git log --pretty=oneline	//简化的查看输出信息
